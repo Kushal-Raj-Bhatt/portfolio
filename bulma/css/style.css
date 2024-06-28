@@ -80,6 +80,18 @@ img{
     .columns:not(.is-desktop) {
         flex-direction: column;
     }
+    .flip > .front,
+  .flip > .back {
+    display: block;
+    color: white;
+    width: inherit;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 436px !important;
+    padding: 1em 2em;
+    background: var(--themebluedark);
+    border-radius: 10px;
+  }
 }
 @media screen and (min-width: 768px){
     .container{
@@ -882,10 +894,10 @@ h1.join-uc {
             padding-left: 0.5rem;
             padding-right: 0.5rem;
         }
-        section.services_slider-page-2 {
+        /* section.services_slider-page-2 {
             padding-left: 1.3rem;
             padding-right: 1.3rem;
-        }
+        } */
         .innr_lr {
             overflow-x: hidden;
             overflow-y: hidden;
@@ -1060,6 +1072,18 @@ h1.join-uc {
         transform: translateX(0%);
         width: 50px;
     }
+    .flip > .front,
+  .flip > .back {
+    display: block;
+    color: white;
+    width: inherit;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 220px !important;
+    padding: 1em 2em;
+    background: var(--themebluedark);
+    border-radius: 10px;
+  }
 }
 .hero-body.main-psports {
     padding: 0rem 0rem 2rem 5rem;
