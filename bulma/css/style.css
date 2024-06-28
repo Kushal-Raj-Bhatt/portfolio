@@ -657,7 +657,7 @@ section.latset_rev_main {
     height: 3.25rem;
     position: relative;
     width: 3.25rem;
-    margin-right: auto;
+    margin-right: 0;
     margin-left: 0;
 }
 .text-pos{
