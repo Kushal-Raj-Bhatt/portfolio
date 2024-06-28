@@ -753,16 +753,12 @@ h1.join-uc {
     .pic_user {
         padding: 10px 20px 0px 0px;
     }
-    a.navbar-item.mob_center{
-        position: absolute;
-        left: 32%;
-        transform: translateX(4%);
-    }
     .navbar-brand, .navbar-tabs {
         align-items: center;
         display: flex;
         flex-shrink: 0;
         min-height: 3.25rem;
+        justify-content: space-between;
     }
     a.button.has-text-white.text-background.p-13.benner_btn {
         padding: 21px 20px;
