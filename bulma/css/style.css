@@ -858,10 +858,10 @@ h1.join-uc {
         } 
         .icon-down-crt img {
             position: absolute;
-            bottom: -3%;
+            bottom: -3% !important;
             right: 1%;
             transform: translateX(0%);
-            width: 50px;
+            width: 50px !important;
             /* transform: translatey(7%); */
         } 
         .linecode {
