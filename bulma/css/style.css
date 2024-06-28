@@ -1384,6 +1384,7 @@ ul.ex-list {
   .clouds-box{
     position: relative;
     height: 100%;
+    padding: 2rem 0px 1rem;
   }  
   .contact-me {
     position: relative;
