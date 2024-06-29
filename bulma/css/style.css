@@ -1715,3 +1715,12 @@ ul.ex-list {
     font-size: 1rem;
 }
 /* FLIP CARD */
+
+.made-me {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.made-me svg{
+    margin-top: 0px;
+}
