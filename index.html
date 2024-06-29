@@ -11,6 +11,7 @@
   <link rel="stylesheet" type="text/css" href="bulma/css/screen3.css">
   <link rel="stylesheet" type="text/css" href="bulma/css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -21,31 +22,29 @@
           <div class="navbar-brand">
             <a class="navbar-item mob_center" href="#home"><img src="bulma/images/Kushal-logo.png" alt="logo"></a>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-              data-target="navbarBasicExample">
+            data-target="navbarBasicExample">
               <img src="bulma/images/icon-hamburger.png" alt="icon-hamburger"> 
             </a>
           </div>
 
           <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-end">
-              <a class="navbar-item has-text-grey-light active" href="#home">
+              <a class="navbar-item has-text-grey-light active nav-mob" href="#home">
                 Home
               </a>
-
-              <a class="navbar-item has-text-grey-light" href="#about-me">
+              <a class="navbar-item has-text-grey-light nav-mob" href="#about-me">
                 About Me
               </a>
-              <a class="navbar-item has-text-grey-light" href="#experience">
+              <a class="navbar-item has-text-grey-light nav-mob" href="#experience">
                 Experience
               </a>
-              <a class="navbar-item has-text-grey-light" href="#projects">
+              <a class="navbar-item has-text-grey-light nav-mob" href="#projects">
                 Projects
               </a>
-              <a class="navbar-item has-text-grey-light" href="#contact">
+              <a class="navbar-item has-text-grey-light nav-mob" href="#contact">
                 Contact Me
               </a>
-
-              <div class="navbar-item">
+              <div class="navbar-item is-hidden-mobile">
                 <div class="buttons">
                   <a class="button has-text-white has-text-weight-semibold text-background animate" href="bulma/images/resume/Kushal Raj Bhatt.pdf" target="_blank">
                     View Resume
@@ -491,9 +490,10 @@
     </script>
     <script>
       $(document).ready(function(){
-        $("#navbar-item").click(function(){
-          $("#navbarBasicExample").hide();
+        $("a").click(function(){
+          $("#navbarBasicExample").toggle();
         });
+      });
     </script>
   </body>
 
