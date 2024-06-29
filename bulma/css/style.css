@@ -1091,7 +1091,7 @@ h1.join-uc {
 .main_foot{
     /* border-top:1px solid #DDDDDD ; */
     padding: 1rem 0px 0rem;
-    background: var(--themeblack);
+    background: var(--themegray);
 }
 .home-banner-Sporta p {
     font-size: 1.5rem;
