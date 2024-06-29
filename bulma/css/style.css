@@ -1090,7 +1090,7 @@ h1.join-uc {
 }
 .main_foot{
     /* border-top:1px solid #DDDDDD ; */
-    padding: 2rem 0px 1rem;
+    padding: 1rem 0px 0rem;
     background: var(--themeblack);
 }
 .last_foot a span {
@@ -1131,7 +1131,7 @@ ul.skill-list {
     padding-left: 2rem;
 }
 .coach_pic.cards_user{
-    background: var(--themeblack);
+    background: var(--themegray);
     border-radius: 5px;
     padding: 2rem .978rem 2rem;
     position: sticky;
@@ -1171,9 +1171,6 @@ ul.skill-list {
 }
 .coach_cobe_main {
     position: relative;
-}
-.showcase {
-    background: var(--themeblack);
 }
 .showcase h2.title{
   color: var(--themewhite);
