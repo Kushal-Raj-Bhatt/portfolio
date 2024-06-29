@@ -353,14 +353,13 @@ input.input.outline-input.news-llater-box::placeholder {
     content: 'next';
     display: none;
 }
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
+.swiper-button-prev {
     width: 50px !important;
     height: 50px !important;
     padding: 15px;
     font-size: 20px;
     background: #0000008a;
     backdrop-filter: blur(5px);
-    background-filter: ;
     border-radius: 50%;
 }
 .swiper-button-next i{
@@ -375,7 +374,7 @@ input.input.outline-input.news-llater-box::placeholder {
     content: 'prev';
     display: none;
 }
-.swiper-button-prev, .swiper-rtl .swiper-button-next {
+.swiper-button-next {
     width: 50px !important;
     height: 50px !important;
     padding: 15px;
