@@ -1093,6 +1093,11 @@ h1.join-uc {
     padding: 1rem 0px 0rem;
     background: var(--themeblack);
 }
+.home-banner-Sporta p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--linkcolor);
+}
 .last_foot a span {
     color: var(--themewhite);
 }
