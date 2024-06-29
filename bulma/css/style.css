@@ -1544,39 +1544,39 @@ ul.ex-list {
     top: 10vh;
   }
   .cube:nth-child(7) {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
-    left: 60vw;
-    top: 30vh;
-  }
-  .cube:nth-child(8) {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
-    left: 70vw;
-    top: 50vh;
-  }
-  .cube:nth-child(9) {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
-    left: 10vw;
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
+    left: 90vw;
     top: 90vh;
   }
+  .cube:nth-child(8) {
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+    left: 70vw;
+    top: 5vh;
+  }
+  .cube:nth-child(9) {
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    left: 10vw;
+    top: 10vh;
+  }
   .cube:nth-child(10) {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
-    left: 50vw;
-    top: 50vh;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+    left: 80vw;
+    top: 10vh;
   }
   .cube:nth-child(11) {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
-    left: 60vw;
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+    left: 20vw;
     top: 20vh;
   }
   .cube:nth-child(12) {
-    -webkit-animation-delay: 80s;
-            animation-delay: 30s;
-    left: 70vw;
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
+    left: 10vw;
     top: 50vh;
   }
   
