@@ -29,19 +29,19 @@
 
           <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-end">
-              <a class="navbar-item has-text-grey-light active nav-mob" href="#home">
+              <a class="navbar-item has-text-grey-light active nav-mob-1" href="#home">
                 Home
               </a>
-              <a class="navbar-item has-text-grey-light nav-mob" href="#about-me">
+              <a class="navbar-item has-text-grey-light nav-mob-2" href="#about-me">
                 About Me
               </a>
-              <a class="navbar-item has-text-grey-light nav-mob" href="#experience">
+              <a class="navbar-item has-text-grey-light nav-mob-3" href="#experience">
                 Experience
               </a>
-              <a class="navbar-item has-text-grey-light nav-mob" href="#projects">
+              <a class="navbar-item has-text-grey-light nav-mob-4" href="#projects">
                 Projects
               </a>
-              <a class="navbar-item has-text-grey-light nav-mob" href="#contact">
+              <a class="navbar-item has-text-grey-light nav-mob-5" href="#contact">
                 Contact Me
               </a>
               <div class="navbar-item is-hidden-mobile">
@@ -488,13 +488,30 @@
         },
       });
     </script>
-    <!-- <script>
+    <script>
       $(document).ready(function(){
-        $("a").click(function(){
-          $("#navbarBasicExample").toggle();
+        $(".nav-mob-1").click(function(){
+          $(".nav-mob-1").addClass("active");
+          $(".nav-mob-2, .nav-mob-3, .nav-mob-4, .nav-mob-5").removeClass("active");
+        });
+        $(".nav-mob-2").click(function(){
+          $(".nav-mob-2").addClass("active");
+          $(".nav-mob-1, .nav-mob-3, .nav-mob-4, .nav-mob-5").removeClass("active");
+        });
+        $(".nav-mob-3").click(function(){
+          $(".nav-mob-3").addClass("active");
+          $(".nav-mob-1, .nav-mob-2, .nav-mob-4, .nav-mob-5").removeClass("active");
+        });
+        $(".nav-mob-4").click(function(){
+          $(".nav-mob-4").addClass("active");
+          $(".nav-mob-1, .nav-mob-2, .nav-mob-3, .nav-mob-5").removeClass("active");
+        });
+        $(".nav-mob-5").click(function(){
+          $(".nav-mob-5").addClass("active");
+          $(".nav-mob-1, .nav-mob-2, .nav-mob-3, .nav-mob-4").removeClass("active");
         });
       });
-    </script> -->
+    </script>
   </body>
 
 </html>
