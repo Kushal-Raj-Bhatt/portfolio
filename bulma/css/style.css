@@ -1708,9 +1708,9 @@ ul.ex-list {
     margin: .5rem 0rem 0rem;
 }
 .showcase_cards .showcase-content .link-show a i {
-    color: var(--linkcolor);
-    background-color: var(--themeblack);
-    font-size: 25px;
-    padding: 15px 15px 10px 10px;
+    color: var(--themeblack);
+    background-color: var(--linkcolor);
+    font-size: 22px;
+    padding: 15px;
     border-radius: 50%;
 }
