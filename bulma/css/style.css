@@ -1130,6 +1130,7 @@ h1.join-uc {
 ul.ex-list {
     list-style: circle;
     padding-left: 2rem;
+    margin-top: .9rem;
 }
 ul.skill-list {
     list-style: unset;
