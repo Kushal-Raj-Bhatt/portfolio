@@ -1516,8 +1516,8 @@ ul.ex-list {
   .cube:nth-child(2) {
     -webkit-animation-delay: 2s;
             animation-delay: 2s;
-    left: 25vw;
-    top: 40vh;
+    left: 30vw;
+    top: 50vh;
   }
   .cube:nth-child(3) {
     -webkit-animation-delay: 4s;
@@ -1564,8 +1564,8 @@ ul.ex-list {
   .cube:nth-child(10) {
     -webkit-animation-delay: 3s;
             animation-delay: 3s;
-    left: 80vw;
-    top: 10vh;
+    left: 50vw;
+    top: 40vh;
   }
   .cube:nth-child(11) {
     -webkit-animation-delay: 5s;
