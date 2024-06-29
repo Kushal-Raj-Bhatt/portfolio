@@ -8,10 +8,10 @@
 	padding: 0;
 }
 :root {
-    --themeblack: #0A0A0A;
+    --themeblack: #121212;
     --themebluedark: #0C1844;
     --linkcolor:#3969d7;
-    --themegray:#303841;
+    --themegray: #1b1b1b;
     --themewhite:#fff;
     --black:#000;
     --cardbg:#09101a;
@@ -134,7 +134,7 @@ img{
   margin: 1.5rem 0px .3rem;
 }
 .has-background-grey-dark {
-    background-color: var(--blackcolor) !important;
+    background-color: transparent !important;
 }
 .buttons .button:not(:last-child):not(.is-fullwidth) {
     margin-right: 0.8rem;
