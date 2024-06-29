@@ -1396,6 +1396,9 @@ ul.ex-list {
     padding-top: 0rem !important;
 }
 }
+.sev-post {
+    margin-bottom: 7px;
+}
 
 /* contact BG animation */
 @keyframes move-background {
