@@ -1374,6 +1374,9 @@ a.navbar-item.mob_center img {
         position: sticky;
         top: 5.8rem;
     }
+    .gap-l{
+        padding-left: 2rem;
+    }
     .container{
     padding: 0px 3rem !important;
 }
