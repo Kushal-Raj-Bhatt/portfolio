@@ -26,7 +26,7 @@
             </a>
           </div>
 
-          <div id="navbarBasicExample" class="navbar-menu ">
+          <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-end">
               <a class="navbar-item has-text-grey-light active" href="#home">
                 Home
@@ -352,92 +352,6 @@
 
     });
   </script>
-  <script>
-    var swiper = new Swiper(".popular_sport", {
-      // loop: true,
-      //   slidesPerView: 2,
-      spaceBetween: 0,
-      // centeredSlides: true,
-      breakpoints: {
-        // when window width is >= 320px
-        320: {
-          slidesPerView: 1.1,
-          spaceBetween: 0,
-        },
-        // when window width is >= 480px
-        480: {
-          slidesPerView: 1.1,
-          spaceBetween: 0,
-        },
-        768: {
-          slidesPerView: 3.5,
-          spaceBetween: 0,
-        },
-        // when window width is >= 640px
-        992: {
-          slidesPerView: 3.3,
-          spaceBetween: 0,
-        }
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      scrollbar: {
-        el: ".swiper-scrollbar",
-        hide: true,
-      },
-    });
-  </script>
-  <script>
-    var swiper = new Swiper(".popular_service", {
-      // loop: true,
-      //   slidesPerView: 2,
-      spaceBetween: 20,
-      // centeredSlides: true,
-      breakpoints: {
-        // when window width is >= 320px
-        320: {
-          slidesPerView: 1.2,
-          spaceBetween: 20,
-        },
-        // when window width is >= 480px
-        480: {
-          slidesPerView: 1.2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 3.5,
-          spaceBetween: 20,
-        },
-        // when window width is >= 640px
-        992: {
-          slidesPerView: 4.2,
-          spaceBetween: 20,
-        }
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      scrollbar: {
-        el: ".swiper-scrollbar",
-        hide: true,
-      },
-    });
-  </script>
-  <script>
-    $(document).ready(function(){
-      $("a").click(function(){
-        $("a.nav-item").toggleClass("active");
-        alert(hello);
-      });
-    });
-    </script>
   </body>
 
 </html>
