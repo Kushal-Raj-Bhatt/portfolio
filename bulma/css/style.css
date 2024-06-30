@@ -1586,7 +1586,7 @@ ul.ex-list {
     -webkit-animation-delay: 3s;
             animation-delay: 3s;
     left: 50vw;
-    top: 40vh;
+    top: 95vh;
   }
   .cube:nth-child(11) {
     -webkit-animation-delay: 5s;
@@ -1695,7 +1695,7 @@ ul.ex-list {
     margin: .5rem 0rem 0rem;
 }
 .showcase_cards .showcase-content .link-show a i {
-    color: var(--themeblack);
+    color: var(--themewhite);
     background-color: var(--linkcolor);
     font-size: 22px;
     padding: 15px;
