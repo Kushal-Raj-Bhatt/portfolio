@@ -1324,6 +1324,16 @@ a.navbar-item.mob_center img {
   padding: .8rem;
   border-radius:100%;
 }
+.mail_me img {
+    width: 50px !important;
+    background: var(--linkcolor);
+    padding: .6rem;
+    border-radius: 38px;
+}
+.say-hello {
+    gap: 10px;
+    align-items: center;
+}
 /* .square1 {
     background-color: var(--linkcolor);
     height: 15vw;
@@ -1666,7 +1676,8 @@ ul.ex-list {
 .showcase_cards .cards-img img{
     object-fit: cover;
     border-radius: 5px 5px 0px 0px;
-    height: 200px;
+    height: 100%;
+    width: 100%;
 }
 .showcase_cards{
     background-color: var(--themegray);
@@ -1700,6 +1711,49 @@ ul.ex-list {
     font-size: 22px;
     padding: 15px;
     border-radius: 50%;
+}
+.modal{
+    z-index: 9999 !important;
+}
+.modal-card-head{
+    background-color: var(--themegray) !important;
+}
+.modal-card-body{
+    background-color: var(--themegray) !important; 
+}
+.modal-card-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.modal-card-title span img{
+    width: 50px !important;
+    background: var(--linkcolor);
+    padding: .6rem;
+    border-radius: 38px;
+}
+.modal-card-title span{
+    color: var(--themewhite);
+}
+.label {
+    color: var(--themewhite);
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.button.is-link{
+    background-color: var(--linkcolor);
+}
+.modal-card-head{
+    border-bottom: none !important;
+}
+.modal-card-body .input, .textarea{
+    background-color: var(--themeblack) !important;
+    border-color: var(--themeblack) !important;
+}
+::placeholder{
+    color: var(--themewhite) !important;
+    font-size: 12px;
 }
 @media screen and (max-width: 991px) {
     .columns:not(.is-desktop) {

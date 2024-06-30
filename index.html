@@ -292,7 +292,7 @@
             <div class="swiper-slide">
               <div class="showcase_cards">
                 <div class="cards-img">
-                  <img src="bulma/images/dr-aarya-signup.png" alt="Sporta">
+                  <img src="bulma/images/dr-aarya-login.png" alt="Sporta">
                 </div>
                 <div class="showcase-content">
                   <h3 class="has-text-left">Dr. Aarya Clinic</h3>
@@ -385,6 +385,9 @@
               <div class="mail_me">
                 <i class="fa-solid fa-phone"></i><a href="tel:9958128856">+91-9958128856</a>
               </div>
+              <div class="mail_me">
+                <a class="is-flex is-align-content-center say-hello js-modal-trigger" data-target="modal-js-example"><span><img src="bulma/images/icon-wave.png"></span><span>I’d just like to say hello</span></a>
+              </div>
             </div>
           </div>
           <div class="column is-3"></div>
@@ -418,8 +421,86 @@
       </div>
     </div>
   </footer>
+  <div class="modal" id="modal-js-example">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title"><span><img src="bulma/images/icon-wave.png"></span><span>I’d just like to say hello</span></p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Name">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input class="input" type="email" placeholder="Email">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Message"></textarea>
+          </div>
+        </div>
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link">Submit</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+  // Functions to open and close a modal
+  function openModal($el) {
+    $el.classList.add('is-active');
+  }
+
+  function closeModal($el) {
+    $el.classList.remove('is-active');
+  }
+
+  function closeAllModals() {
+    (document.querySelectorAll('.modal') || []).forEach(($modal) => {
+      closeModal($modal);
+    });
+  }
+
+  // Add a click event on buttons to open a specific modal
+  (document.querySelectorAll('.js-modal-trigger') || []).forEach(($trigger) => {
+    const modal = $trigger.dataset.target;
+    const $target = document.getElementById(modal);
+
+    $trigger.addEventListener('click', () => {
+      openModal($target);
+    });
+  });
+
+  // Add a click event on various child elements to close the parent modal
+  (document.querySelectorAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button') || []).forEach(($close) => {
+    const $target = $close.closest('.modal');
+
+    $close.addEventListener('click', () => {
+      closeModal($target);
+    });
+  });
+
+  // Add a keyboard event to close all modals
+  document.addEventListener('keydown', (event) => {
+    if(event.key === "Escape") {
+      closeAllModals();
+    }
+  });
+});
+  </script>
   <script>
     var typed = new Typed('.gotext', {
       strings: ['Frontend <span style="color:#3969d7">Developer</span>', 'I Code Cool <span style="color:#3969d7">Websites</span>', 'I Love <span style="color:#3969d7">Shopify</span>'],
