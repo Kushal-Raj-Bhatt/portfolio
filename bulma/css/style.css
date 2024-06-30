@@ -1762,4 +1762,8 @@ ul.ex-list {
     .swiper-scrollbar-drag {
         width: 150px !important;
     }
+    .modal-card-title span{
+        color: var(--themewhite);
+        font-size: 16px;
+    }
 }
