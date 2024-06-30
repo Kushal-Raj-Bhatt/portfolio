@@ -1517,7 +1517,7 @@ ul.ex-list {
   }
   
   .clouds-box  .background-container img {
-    width: 80%;
+    width: 100%;
     position: relative;
     z-index: 3;
     right: 0px;
