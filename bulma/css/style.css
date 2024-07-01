@@ -1535,7 +1535,7 @@ ul.ex-list {
     left: 45vw;
     width: 5px;
     height: 5px;
-    border: solid 1px #003298;
+    border: solid .5px #003298;
     transform-origin: top left;
     transform: scale(0) rotate(0deg) translate(-50%, -50%);
     -webkit-animation: cube 5s ease-in forwards infinite;
