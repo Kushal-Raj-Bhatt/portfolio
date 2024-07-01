@@ -61,6 +61,9 @@ h6{
 p{
     font-family: 'DM Sans', sans-serif;
 }
+a{
+    cursor: url(../images/cursor.png), auto !important;
+}
 span{
     font-family: 'DM Sans', sans-serif;
 }
@@ -133,7 +136,7 @@ img{
     border-color: var(--themegray);
     border-width: 1px;
     color: var(--themewhite);
-    cursor: pointer;
+    cursor: url(../images/cursor.png), auto;
     justify-content: center;
     padding-bottom: calc(0.5em - 1px);
     padding-left: 1em;
@@ -581,7 +584,7 @@ section.latset_rev_main {
     height: var(--swiper-navigation-size);
     margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
     z-index: 10;
-    cursor: pointer;
+    cursor: url(../images/cursor.png), auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -594,7 +597,7 @@ section.latset_rev_main {
     height: var(--swiper-navigation-size);
     margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
     z-index: 10;
-    cursor: pointer;
+    cursor: url(../images/cursor.png), auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -668,7 +671,7 @@ section.latset_rev_main {
     appearance: none;
     background: 0 0;
     border: none;
-    cursor: pointer;
+    cursor: url(../images/cursor.png), auto;
     display: block;
     height: 3.25rem;
     position: relative;
@@ -1522,6 +1525,9 @@ ul.ex-list {
     z-index: 3;
     right: 0px;
   }
+  body{
+    cursor: url(../images/cursor.png), auto;
+ }
 /* contact BG animation end */
 
 /* Banner Animation */
@@ -1531,7 +1537,7 @@ ul.ex-list {
 }  
   .cube {
     position: absolute;
-    top: 80vh;
+    top: 43vh;
     left: 45vw;
     width: 3px;
     height: 3px;
@@ -1547,26 +1553,26 @@ ul.ex-list {
   .cube:nth-child(2) {
     -webkit-animation-delay: 2s;
             animation-delay: 2s;
-    left: 30vw;
-    top: 50vh;
+    left: 80vw;
+    top: 5vh;
   }
   .cube:nth-child(3) {
     -webkit-animation-delay: 4s;
-            animation-delay: 4s;
-    left: 85vw;
-    top: 50vh;
+    animation-delay: 4s;
+    left: 10vw;
+    top: 55vh;
   }
   .cube:nth-child(4) {
     -webkit-animation-delay:3s;
             animation-delay: 3s;
-    left: 90vw;
-    top: 10vh;
+    left: 95vw;
+    top: 15vh;
   }
   .cube:nth-child(5) {
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
-    left: 10vw;
-    top: 79vh;
+    left: 30vw;
+    top: 60vh;
   }
   .cube:nth-child(6) {
     -webkit-animation-delay: 1s;
@@ -1578,7 +1584,7 @@ ul.ex-list {
     -webkit-animation-delay: .5s;
             animation-delay: .5s;
     left: 90vw;
-    top: 83vh;
+    top: 45vh;
   }
   .cube:nth-child(8) {
     -webkit-animation-delay: 1.5s;
@@ -1589,8 +1595,8 @@ ul.ex-list {
   .cube:nth-child(9) {
     -webkit-animation-delay: 2s;
             animation-delay: 2s;
-    left: 10vw;
-    top: 10vh;
+    left: 25vw;
+    top: 45vh;
   }
   .cube:nth-child(10) {
     -webkit-animation-delay: 3s;
@@ -1608,7 +1614,7 @@ ul.ex-list {
     -webkit-animation-delay: .5s;
             animation-delay: .5s;
     left: 10vw;
-    top: 50vh;
+    top: 20vh;
   }
   /* cnavas css */ 
 .canvas-box canvas {
