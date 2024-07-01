@@ -1533,16 +1533,16 @@ ul.ex-list {
     position: absolute;
     top: 80vh;
     left: 45vw;
-    width: 5px;
-    height: 5px;
-    border: solid .5px #003298;
+    width: 3px;
+    height: 3px;
+    border: solid .5px #3969d7;
     transform-origin: top left;
     transform: scale(0) rotate(0deg) translate(-50%, -50%);
     -webkit-animation: cube 5s ease-in forwards infinite;
             animation: cube 5s ease-in forwards infinite;
   }
   .cube:nth-child(2n) {
-    border-color: #0051f4;
+    border-color: #3969d7;
   }
   .cube:nth-child(2) {
     -webkit-animation-delay: 2s;
