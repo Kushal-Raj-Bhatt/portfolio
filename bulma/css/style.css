@@ -1610,6 +1610,23 @@ ul.ex-list {
     left: 10vw;
     top: 50vh;
   }
+  /* cnavas css */ 
+.canvas-box canvas {
+    background-color: transparent;
+    margin-bottom: -1em;
+    height: 100%;
+  }
+  .canvas-box{
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+    height: 100%;
+  }
+  .hero-body.home-banner-Sporta{
+    position: inherit;
+    z-index: 90;
+  }
+  /*cnavas End  */
   
   
   @-webkit-keyframes cube {
