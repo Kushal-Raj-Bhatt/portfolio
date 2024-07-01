@@ -1553,7 +1553,7 @@ ul.ex-list {
   .cube:nth-child(3) {
     -webkit-animation-delay: 4s;
             animation-delay: 4s;
-    left: 75vw;
+    left: 85vw;
     top: 50vh;
   }
   .cube:nth-child(4) {
