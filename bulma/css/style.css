@@ -1699,7 +1699,7 @@ ul.ex-list {
 .showcase_cards .cards-img img{
     object-fit: cover;
     border-radius: 5px 5px 0px 0px;
-    height: 100%;
+    height: 160px;
     width: 100%;
 }
 .showcase_cards{
@@ -1734,6 +1734,10 @@ ul.ex-list {
     font-size: 22px;
     padding: 15px;
     border-radius: 50%;
+}
+.showcase_cards .showcase-content .link-show a i:hover {
+    color: var(--linkcolor);
+    background-color: var(--themeblack);
 }
 .modal{
     z-index: 9999 !important;
