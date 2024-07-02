@@ -112,7 +112,7 @@ img{
     font-weight: 500;
 }
 .ex_box {
-    background: var(--linkcolor);
+    background: var(--themeblack);
     padding: 0rem 2rem 1.5rem;
     position: relative;
     border-radius: 5px;
@@ -307,17 +307,17 @@ input.input.outline-input.news-llater-box::placeholder {
 }
 .icon-up-crt img {
     position: absolute;
-    top: -7%;
+    top: -5%;
     left: 1%;
     transform: translateX(4.5%);
-    width: 80px;
+    width: 65px;
 }
 .icon-down-crt img {
     position: absolute;
-    bottom: -7%;
+    bottom: -5%;
     right: 1%;
     transform: translateX(-5.5%);
-    width: 80px;
+    width: 65px;
     /* transform: translatey(7%); */
 }
 
