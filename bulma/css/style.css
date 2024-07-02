@@ -928,7 +928,7 @@ h1.join-uc {
         }
         .ex_box {
             margin-left: 0rem;
-            background: var(--linkcolor);
+            background: var(--themeblack);
             padding: 1rem 0.5rem 2rem 0.5rem;
         }
         .text-pos{
