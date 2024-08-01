@@ -1802,3 +1802,55 @@ ul.ex-list {
         width: 100%;
     }
 }
+
+/* Tech Logos CSS Start */
+.tech-logo-wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-block: 1rem;
+    align-content: center;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    /* background-image: linear-gradient(150deg,
+    var(--themeblack),
+    #aaa
+  ); */
+  background-color: var(--themeblack);
+  /* background-image: linear-gradient(-90deg, var(--linkcolor), var(--cardbg)); */
+    padding: 2rem;
+    border-radius: 10px;
+}
+.tech-logo-wrap:hover, .tech-logo-wrap:focus-visible {
+    position: relative;
+    background-image: linear-gradient(150deg,
+    var(--themeblack),
+    #aaa
+  );
+}
+.tech-logo-wrap .tech-logo{
+    border: 4px solid var(--themebluedark);
+    padding: 1.5rem 1rem;
+    width: 100%;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: .5rem;
+}
+.tech-logo-wrap .tech-logo img{
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    object-position: center;
+    aspect-ratio: 1/2;
+    margin: 0 auto;
+}
+.text-tech-logo p{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Tech Logos CSS End */
