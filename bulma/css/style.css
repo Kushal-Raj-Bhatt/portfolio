@@ -1809,6 +1809,9 @@ span.gotext{
         font-size: 2rem;
         font-weight: 600;
     }
+    .tech-logo-wrap {
+        padding: 1rem .5rem !important;
+    }
 }
 
 
