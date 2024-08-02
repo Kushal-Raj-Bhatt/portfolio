@@ -1811,6 +1811,7 @@ span.gotext{
     }
     .tech-logo-wrap {
         padding: 1rem .5rem !important;
+        gap: .5rem !important;
     }
 }
 
