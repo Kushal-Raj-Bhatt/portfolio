@@ -1813,6 +1813,11 @@ span.gotext{
         padding: 2rem .5rem !important;
         gap: .5rem !important;
     }
+    .text-tech-logo p{
+        font-size: 1rem !important;
+        text-align: center;
+        font-weight: 500;
+    }
 }
 
 
@@ -1856,8 +1861,8 @@ span.gotext{
     gap: .5rem;
 }
 .tech-logo-wrap .tech-logo img{
-    width: 65px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
     object-position: center;
     aspect-ratio: 1/2;
@@ -1865,6 +1870,11 @@ span.gotext{
 }
 .text-tech-logo p{
     font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+}
+.tech-logo p{
+    font-size: .875rem;
     text-align: center;
     font-weight: 500;
 }
