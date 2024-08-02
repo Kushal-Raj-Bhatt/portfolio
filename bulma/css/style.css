@@ -1801,6 +1801,14 @@ ul.ex-list {
         height: 125px;
         width: 100%;
     }
+    span.gotext{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+span.gotext{
+    font-size: 3rem;
+    font-weight: 600;
 }
 
 /* Tech Logos CSS Start */
