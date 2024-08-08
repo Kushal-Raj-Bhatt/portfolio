@@ -1167,7 +1167,7 @@ ul.skill-list {
     background-color: var(--themegray);
     border-radius: 5px;
     border-bottom: 5px solid var(--linkcolor);
-    padding-bottom: 1rem;
+    padding: 0rem .978rem 1rem;
 }
 .social_follow {
     display: flex;
