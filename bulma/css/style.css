@@ -1163,6 +1163,9 @@ ul.skill-list {
     border-radius: 100%;
     /* border: 3px solid var(--themewhite); */
 }
+.experience-card{
+    background-color: var(--themegray);
+}
 .social_follow {
     display: flex;
     justify-content: center;
