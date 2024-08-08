@@ -8,6 +8,7 @@
   <link rel="icon" type="image/x-icon" href="bulma/images/favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <script src="https://kit.fontawesome.com/be0be6d488.js" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="bulma/css/screen3.css">
   <link rel="stylesheet" type="text/css" href="bulma/css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -112,7 +113,7 @@
 
       <div class="columns is-gapless">
         <div class="column">
-          <div class="ex_coach about-box">
+          <div class="ex_coach about-box" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="2000">
             <div class="ex_box">
               <div class="hero-body ex_coach_main">
                 <h2 class="ex_name p-22">👉 -Frontend Developer:</h2>
@@ -155,7 +156,7 @@
       <div class="coach_cobe_main">
         <div class="columns is-gapless">
           <div class="column is-4-desktop is-12-tablet">
-            <div class="coach_pic cards_user mt-5">
+            <div data-aos="flip-up" class="coach_pic cards_user mt-5">
               <div class="card-info-resume avatar">
                 <img src="bulma/images/avatar.svg" alt="User" width="50px">
                 <h2>Kushal Raj Bhatt</h2>
@@ -257,56 +258,56 @@
       <div class="columns is-centered">
         <div class="column is-6 pb-0">
           <div class="sev-post">
-            <img src="bulma/images/devices.svg" alt="devices" width="100%">
+            <img data-aos="zoom-in" src="bulma/images/devices.svg" alt="devices" width="100%">
           </div>
         </div>
       </div>
       <div class="text-tech-logo">
         <p>I design and code beautifully simple things, and I love what I do.</p>
       </div>
-        <div class="tech-logo-wrap">
+        <div class="tech-logo-wrap" data-aos="flip-up">
           <div class="tech-logo">
-            <img src="bulma/images/tech-logo/html.png" alt="devices" width="100%">
+            <img data-aos="flip-left" src="bulma/images/tech-logo/html.png" alt="devices" width="100%">
             <p>HTML</p>
           </div>
           <div class="tech-logo">
-            <img src="bulma/images/tech-logo/css.png" alt="devices" width="100%">
+            <img data-aos="flip-right" src="bulma/images/tech-logo/css.png" alt="devices" width="100%">
             <p>CSS</p>
           </div>
           <div class="tech-logo">
-            <img src="bulma/images/tech-logo/bootstrap-logo.svg" alt="devices" width="100%">
+            <img data-aos="flip-left" src="bulma/images/tech-logo/bootstrap-logo.svg" alt="devices" width="100%">
             <p>Bootstrap</p>
           </div>
           <div class="tech-logo">
-            <img src="bulma/images/tech-logo/Bulma.png" alt="devices" width="100%">
+            <img data-aos="flip-right" src="bulma/images/tech-logo/Bulma.png" alt="devices" width="100%">
             <p>Bulma Css</p>
           </div>
           <div class="tech-logo">
-            <img src="bulma/images/tech-logo/tailwind-css.svg" alt="devices" width="100%">
+            <img data-aos="flip-left" src="bulma/images/tech-logo/tailwind-css.svg" alt="devices" width="100%">
             <p>Tailwind Css</p>
           </div>
           <div class="tech-logo">
-            <img src="bulma/images/tech-logo/js.png" alt="devices" width="100%">
+            <img data-aos="flip-right" src="bulma/images/tech-logo/js.png" alt="devices" width="100%">
             <p>JavaScript</p>
           </div>
           <div class="tech-logo">
-            <img src="bulma/images/tech-logo/react-js.png" alt="devices" width="100%">
+            <img data-aos="flip-left" src="bulma/images/tech-logo/react-js.png" alt="devices" width="100%">
             <p>React Js</p>
           </div>
           <div class="tech-logo">
-            <img src="bulma/images/tech-logo/next-js.png" alt="devices" width="100%">
+            <img data-aos="flip-right" src="bulma/images/tech-logo/next-js.png" alt="devices" width="100%">
             <p>Next Js</p>
           </div>
           <div class="tech-logo">
-            <img src="bulma/images/tech-logo/sass.png" alt="devices" width="100%">
+            <img data-aos="flip-left" src="bulma/images/tech-logo/sass.png" alt="devices" width="100%">
             <p>Sass</p>
           </div>
           <div class="tech-logo">
-            <img src="bulma/images/tech-logo/shopify.svg" alt="devices" width="100%">
+            <img data-aos="flip-right" src="bulma/images/tech-logo/shopify.svg" alt="devices" width="100%">
             <p>Shopify</p>
           </div>
           <div class="tech-logo">
-            <img src="bulma/images/tech-logo/wp-icon.svg" alt="devices" width="100%">
+            <img data-aos="flip-left" src="bulma/images/tech-logo/wp-icon.svg" alt="devices" width="100%">
             <p>WordPress</p>
           </div>
           <!-- <div class="tech-logo">
@@ -314,7 +315,7 @@
             <p>WooCommerce</p>
           </div> -->
           <div class="tech-logo">
-            <img src="bulma/images/tech-logo/github.png" alt="devices" width="100%">
+            <img data-aos="flip-right" src="bulma/images/tech-logo/github.png" alt="devices" width="100%">
             <p>Github</p>
           </div>
         </div>
@@ -560,8 +561,12 @@
       </section>
     </div>
   </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
   // Functions to open and close a modal
