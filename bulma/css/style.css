@@ -1161,7 +1161,7 @@ ul.skill-list {
 .coach_pic.cards_user img{
     width: 100px;
     border-radius: 100%;
-    border: 3px solid var(--themewhite);
+    /* border: 3px solid var(--themewhite); */
 }
 .social_follow {
     display: flex;
