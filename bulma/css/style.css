@@ -17,16 +17,19 @@
     --cardbg:#09101a;
     --blackcolor:#000;
 }
+body{
+    overflow-x: hidden;
+}
 html{
     overflow-x: hidden;
     scroll-behavior: smooth;
-    scroll-padding: 4.5rem;
+    scroll-padding: 0rem;
 }
-header {
+/* header {
     position: sticky;
     top: 0;
     z-index: 9999;
-}
+} */
 h1{
     
     font-family: 'PT Sans Narrow', sans-serif;
@@ -1085,6 +1088,9 @@ h1.join-uc {
     background: var(--themebluedark);
     border-radius: 10px;
   }
+  .video-frame {
+    min-height: 0px !important;
+}
 }
 .hero-body.main-psports {
     padding: 0rem 0rem 2rem 5rem;
@@ -1886,5 +1892,20 @@ span.gotext{
     text-align: center;
     font-weight: 500;
 }
-
+.video-frame {
+    min-height: 200px;
+}
+.video-frame video{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.navbar-end .navbar-item {
+    color: #fff !important;
+}
 /* Tech Logos CSS End */
