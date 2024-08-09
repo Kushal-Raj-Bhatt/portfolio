@@ -17,9 +17,6 @@
     --cardbg:#09101a;
     --blackcolor:#000;
 }
-body{
-    overflow-x: hidden;
-}
 html{
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -1893,7 +1890,7 @@ span.gotext{
     font-weight: 500;
 }
 .video-frame {
-    min-height: 200px;
+    min-height: 300px;
 }
 .video-frame video{
     position: absolute;
