@@ -340,6 +340,53 @@
             <div class="swiper-slide">
               <div class="showcase_cards">
                 <div class="cards-img">
+                  <img src="bulma/images/quickchain.png" alt="Kidzjoy">
+                </div>
+                <div class="showcase-content">
+                  <h3 class="has-text-left">QuickChain</h3>
+                  <p class="has-text-left">Kidzjoy is the online Crypto Currency sell all over the world</p>
+                  <div class="mt-1 texh-info">
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Bootstrap</span>
+                    <span>Javascript</span>
+                    <span>React Js</span>
+                    <span>Node Js</span>
+                    <span>Github</span>
+                    <span>Figma</span>
+                  </div>
+                  <div class="link-show has-text-right">
+                    <a href="https://www.quickchain.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="showcase_cards">
+                <div class="cards-img">
+                  <img src="bulma/images/trackerhealth.png" alt="Kidzjoy">
+                </div>
+                <div class="showcase-content">
+                  <h3 class="has-text-left">Tracker Health</h3>
+                  <p class="has-text-left">Tracker Health is an online old-age home care web software that monitors the health issues of all old-age home members 24/7.</p>
+                  <div class="mt-1 texh-info">
+                    <span>HTML</span>
+                    <span>Css</span>
+                    <span>Bootstrap</span>
+                    <span>Javascript</span>
+                    <span>React Js</span>
+                    <span>Github</span>
+                    <span>Figma</span>
+                  </div>
+                  <div class="link-show has-text-right">
+                    <a href="https://stage.trackerhealth.io" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="showcase_cards">
+                <div class="cards-img">
                   <img src="bulma/images/kidjoy-signin.png" alt="Kidzjoy">
                 </div>
                 <div class="showcase-content">
@@ -471,7 +518,7 @@
           <div class="swiper-button-next home">
             <i class="fa-solid fa-chevron-right"></i>
           </div>
-          <div class="swiper-button-prev home">
+          <div class="swiper-button-prev home is-hidden">
             <i class="fa-solid fa-chevron-left"></i>
           </div>
           <div class="pt-5 mt-5">
@@ -652,7 +699,10 @@
   </script>
   <script>
       var swiper = new Swiper(".showcase-slider", {
-       // loop: true,
+       loop: true,
+       autoplay: {
+    delay: 3000,
+  },
       //   slidesPerView: 2,
       spaceBetween: 20,
       // centeredSlides: true,
