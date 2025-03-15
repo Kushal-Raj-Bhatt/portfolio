@@ -11,7 +11,7 @@
     --themeblack: #121212;
     --themebluedark: #0C1844;
     --linkcolor:#3969d7;
-    --themegray: #1b1b1b;
+    --themegray: #222;
     --themewhite:#fff;
     --black:#000;
     --cardbg:#09101a;
@@ -1916,7 +1916,7 @@ span.gotext{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--blackcolor);
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
