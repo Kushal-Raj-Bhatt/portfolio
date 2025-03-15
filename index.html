@@ -665,9 +665,29 @@
       </section>
     </div>
   </div>
+  <button class="back-to-top">↑</button>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    $(document).ready(function() {
+    // Back to Top button
+    var $backToTop = $('.back-to-top');
+    
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 200) {
+            $backToTop.addClass('show');
+        } else {
+            $backToTop.removeClass('show');
+        }
+    });
+
+    $backToTop.click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop: 0}, '300');
+    });
+});
+  </script>
   <script>
     AOS.init();
   </script>
