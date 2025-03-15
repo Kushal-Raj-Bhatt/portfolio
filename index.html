@@ -16,6 +16,11 @@
 </head>
 
 <body>
+  <div class="page-loader">
+    <img src="/bulma/images/black-hole-sun.png" 
+         class="loader-image" 
+         alt="Loading...">
+</div>
   <header>
     <div class="my_header">
       <div class="container">
@@ -741,6 +746,18 @@
 
     });
   </script>
+   <script>
+    // Hide loader when page is fully loaded
+    window.addEventListener('load', () => {
+        const loader = document.querySelector('.page-loader');
+        loader.classList.add('loaded');
+        
+        // Optional: Remove loader from DOM after animation
+        setTimeout(() => {
+            loader.remove();
+        }, 300); // Match this with the transition duration
+    });
+</script>
   <script>
       var swiper = new Swiper(".showcase-slider", {
        loop: true,
