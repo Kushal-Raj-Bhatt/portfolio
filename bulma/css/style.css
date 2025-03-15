@@ -20,13 +20,13 @@
 html{
     overflow-x: hidden;
     scroll-behavior: smooth;
-    scroll-padding: 0rem;
+    scroll-padding: 3.5rem;
 }
-/* header {
+header {
     position: sticky;
     top: 0;
     z-index: 9999;
-} */
+}
 h1{
     
     font-family: 'PT Sans Narrow', sans-serif;
