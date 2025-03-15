@@ -1758,6 +1758,7 @@ ul.ex-list {
 }
 .modal-card-body{
     background-color: var(--themegray) !important; 
+    padding: 10px 20px 20px !important;
 }
 .modal-card-title{
     display: flex;
