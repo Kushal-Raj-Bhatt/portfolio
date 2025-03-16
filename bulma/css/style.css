@@ -1395,7 +1395,7 @@ a.navbar-item.mob_center img {
 @media screen and (min-width: 1025px){
     .coach_pic.cards_user{
         position: sticky;
-        top: 5px;
+        top: 75px;
     }
     .gap-l{
         padding-left: 2rem;
